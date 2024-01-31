@@ -36,7 +36,7 @@ public class Clase2 {
         if (false){
             System.out.println("sssss");
         }*/
-        String data = JOptionPane.showInputDialog("Ingrese su del curso anterior ");
+        /*String data = JOptionPane.showInputDialog("Ingrese su nota del curso anterior ");
         JOptionPane.showMessageDialog(null, data);
         int nota;
         nota = Integer.parseInt(data);
@@ -54,7 +54,7 @@ public class Clase2 {
             JOptionPane.showMessageDialog(null, "Aprobo");
         } else {
             JOptionPane.showMessageDialog(null, "No Aprobo");
-        }
+        }*/
         
        /* if (edad > 30) {
             JOptionPane.showMessageDialog(null, "El puede ser presidente ");
@@ -80,13 +80,11 @@ public class Clase2 {
                 System.out.println("Es Viernes");
                  break;
         }*/
-    }
-}
+  
 
+//parte 2 
 
-parte 2 
-
-  int dia = 5;
+  int dia = 6 ;
         switch (dia) {
             case 1:
                 System.out.println("Es Domingo");
@@ -109,3 +107,6 @@ parte 2
             case 7:
                 System.out.println("Es Sabado");
                 break;
+        }
+     }
+}
