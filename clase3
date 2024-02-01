@@ -1,0 +1,56 @@
+clase3 de java 
+
+
+
+public class Clase3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+        //Ciclos con for
+        /* for (int i = 0; i <= 10; i++){
+            System.out.print(" Se repit: " +i);
+    }*/
+ /* for(;;){
+           System.out.print("r");
+           break;
+       }*/
+        // Ciclos con while 
+        /*int i=0;
+       while (i<5) {
+           System.out.println("El valor de I es; "+i);
+           i=i+1;
+   }*/
+ /* int i=1, suma=0;
+       while (i<=10) {
+       suma +=i;
+       ++i;
+    }
+        System.out.println("La sumatoria es: "+suma);
+         */
+ /*boolean valor = false;
+        while (!valor){
+           System.out.println("r");
+             if (!valor)
+               valor=true;
+            }*/
+        //Ciclo con do
+        /*int i = 0;
+        do {
+            System.out.println("Hola, i vale;" + i);
+            ++i;
+        } while (i < 5);*/
+        int i = 0;
+        while (i < 7) {
+            int j = 0;
+            System.out.println("Ejecutando ciclo externo i=" + i);
+            while (j < 4) {
+                System.out.println("Ejecutando ciclo interno i=" + i + "j=" + j);
+                j++;
+            }
+            i++;
+        }
+    }
+}
